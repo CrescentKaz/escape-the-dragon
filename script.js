@@ -146,7 +146,7 @@ const locations = [
     {
         name: "death bone room",
         "button text": ["N", "E", "S", "W"],
-        "button functions": [],
+        "button functions": [restart, restart, restart, restart],
         text: "You slip and slide down a hole onto bones of full 50 men strewn about. Some are broken, others whole, and yet others with many many pin-pricks piercing straight through. Unfortuneately you land on one of these. It is very painful... You Died. Ending 1"
     }
 ];
