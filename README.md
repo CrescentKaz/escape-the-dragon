@@ -34,7 +34,6 @@ locations:
 23 - death bone room,
 
 double check the restart function maybe?
-beware infinite loops? ex: restart -> dragon room -> restart
 
 need to switch the south and west buttons for all locations (due to rose compass issues)
 
