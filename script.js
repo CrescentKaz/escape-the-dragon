@@ -123,7 +123,7 @@ const locations = [
         name: "dead end",
         "button text": ["N", "E", "S", "W"],
         "button functions": [goDragonRoom, goDragonRoom, goDragonRoom, goDragonRoom],
-        text: "You stumble into the wall and hit your head. You pass out from a concusion. Press any direction to continue.
+        text: "You stumble into the wall and hit your head. You pass out from a concusion. Press any direction to continue."
     },
     {
         name: "lose",
