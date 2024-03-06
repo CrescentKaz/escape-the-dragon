@@ -154,8 +154,8 @@ const locations = [
 // initialize buttons
 button1.onclick = goDeadEnd;
 button2.onclick = goBoneRoom;
-button3.onclick = goTreasureHoard;
-button4.onclick = goRockWall;
+button3.onclick = goRockWall;
+button4.onclick = goTreasureHoard;
 
 function update(locations) {
   button1.innerText = locations["button text"][0];
