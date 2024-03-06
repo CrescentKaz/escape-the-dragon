@@ -33,7 +33,5 @@ locations:
 22 - mini game,
 23 - death bone room,
 
-double check the restart function maybe?
-
-need to switch the south and west buttons for all locations (due to rose compass issues)
+need to double check all possible pathing. 
 
