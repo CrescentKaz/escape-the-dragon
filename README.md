@@ -28,12 +28,9 @@ locations:
 17 - treasure hoard,
 18 - dragon room <--start here,
 19 - dead end,
-20 - lose,
-21 - win,
-22 - mini game,
-23 - death bone room,
+20 - win,
+21 - mini game,
+22 - death bone room,
 
-double check the restart function maybe?
-
-need to switch the south and west buttons for all locations (due to rose compass issues)
+need to update location text for storyline continuity. 
 
