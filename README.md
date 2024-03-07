@@ -32,5 +32,5 @@ locations:
 21 - mini game,
 22 - death bone room,
 
-need to update location text for storyline continuity. 
+need to save main location.text elsewhere for use in The Cave. 
 
