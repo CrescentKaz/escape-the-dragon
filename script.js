@@ -3,13 +3,15 @@ const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const button4 = document.querySelector("#button4"); 
 const text = document.querySelector("#text"); 
+const picture = document.querySelector("#picture");
 
 const locations = [
   { 
     name: "entrance",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goLargeCavern, goDeadEnd, goDeadEnd, goWin],
-    text: "Before you looms the dark, decrepit crags of Mt Feir, so named for the fear it instills upon all who tred it's trecherous terrain. The large gaping maw of the mountain lies to the North of you, to the South is freedom!"
+    text: "Before you looms the dark, decrepit crags of Mt Feir, so named for the fear it instills upon all who tred it's trecherous terrain. The large gaping maw of the mountain lies to the North of you, to the South is freedom!",
+    picture: " "
   },
   {
     name: "large cavern",
@@ -161,6 +163,7 @@ function update(locations) {
   button3.onclick = locations["button functions"][2];
   button4.onclick = locations["button functions"][3];
   text.innerText = locations.text;
+  picture.innerText = locations.picture;
 }
 
 function goEntrance() {
