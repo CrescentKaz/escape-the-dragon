@@ -32,5 +32,5 @@ locations:
 21 - mini game,
 22 - death bone room,
 
-need to update location text for storyline continuity. 
+need to test the code! \o/
 
