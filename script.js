@@ -27,7 +27,7 @@ const locations = [
     name: "tunnel of biolumenence",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goRockWall, goLargeCavern, goDeadEnd, goDeadEnd],
-    text: "The tunnel literally glows as biolumenencent algae and cave crawlers line the walls and ceiling. They're mostly teal with some flat pinks and neon yellows. To the East is a large open space. To the West is a wall of rock where even the algae and critters mostly avoid. You think you spot a few handholds..."
+    text: "The tunnel literally glows as biolumenencent algae and cave crawlers line the walls and ceiling. They are mostly teal with some flat pinks and neon yellows. To the East is a large open space. To the West is a wall of rock where even the algae and critters mostly avoid. You think you spot a few handholds..."
   },
   {
     name: "rock wall",
@@ -39,13 +39,13 @@ const locations = [
     name: "underground river",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goOldTracks, goBatCave, goOldCampsite, goLargeCavern], 
-    text: "In front of you is a rushing river. Glowing algae light the room. There's a path to the West and another to the East, the water is low enough to cross and in the distance you can see a path that goes to the South."
+    text: "In front of you is a rushing river. Glowing algae light the room. There is a path to the West and another to the East, the water is low enough to cross and in the distance you can see a path that goes to the South."
   },
   {
     name: "old campsite",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goDeadEnd, goUndergroundRiver, goDeadEnd, goDeadEnd],
-    text: "You find an old campsite with a burnt out firepit, a tattered dusty tent that leans too far to the right, and a few large rocks that might have doubled as stools. Luckily, you don't find any bodies. You do find a small empty knapsack and a book tucked just inside the tent. To the East lies the underground river."
+    text: "You find an old campsite with a burnt out firepit, a tattered dusty tent that leans too far to the right, and a few large rocks that might have doubled as stools. Luckily, you do not find any bodies. You do find a small empty knapsack and a book tucked just inside the tent. To the East lies the underground river."
   },
   {
     name: "bat cave",
@@ -57,13 +57,13 @@ const locations = [
     name: "old tracks",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goSortaOldTracks, goDeadEnd, goDeadEnd, goUndergroundRiver],
-    text: "Large depressions trail off towards the North. You've gotta be getting close to escaping! You hear rushing water to the South and you already know what's to the North."
+    text: "Large depressions trail off towards the North. You have gotta be getting close to escaping! You hear rushing water to the South and you already know what's to the North."
   },
   {
     name: "sorta old tracks",
     "button text": ["N", "E", "W", "S"],
     "button functions": [goOldCarving, goWeekOldTracks, goBoneRoom, goOldTracks],
-    text: "Sweat beads upon your brow and your hair sticks to the sides of your face. You're at a crossroads in the mountain. You can vaugely make out some sort of wall carving to the North, the older tracks lie to the South, newer tracks head East and a rancid scent wafts towards you from the West."
+    text: "Sweat beads upon your brow and your hair sticks to the sides of your face. You are at a crossroads in the mountain. You can vaugely make out some sort of wall carving to the North, the older tracks lie to the South, newer tracks head East and a rancid scent wafts towards you from the West."
   },
   {
     name: "bone room",
