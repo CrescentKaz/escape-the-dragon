@@ -257,11 +257,14 @@ function goDeathBoneRoom() {
 }
 
 function pickOne() {
-  pick(1);
+  pick(Math.floor(Math.random()*11));
 }
 
 function pickTwo() {
-  pick(2);
+  let nums = [];
+  while (nums.length < 2) {
+    nums.push(Math.floor(Math.random()*11));
+  }
 }
 
 function pickThree() {
