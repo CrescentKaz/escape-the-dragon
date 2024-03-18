@@ -265,7 +265,7 @@ function pickTwo() {
   while (nums.length < 2) {
     nums.push(Math.floor(Math.random()*11));
   }
-  pick(nums.int);
+  pick(nums);
 }
 
 function pickThree() {
