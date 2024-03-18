@@ -164,7 +164,6 @@ function update(locations) {
 }
 
 function goEntrance() {
-  alert("going to entrance");
   update(locations[0]);
 }
 
@@ -241,7 +240,7 @@ function goDragonRoom() {
 }
 
 function goDeadEnd() {
-  alert("going to dead end");
+  alert("You've reached a DEAD end!");
   update(locations[19]);
 }
 
