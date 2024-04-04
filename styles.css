@@ -3,9 +3,9 @@
   --button-color2: purple;
 }
 
-@media (min-width: 1000) {
+@media (min-width: 975) {
   #controls {
-    left: 75%;
+    left: 50%;
   }
 }
 
