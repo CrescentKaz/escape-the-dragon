@@ -3,14 +3,66 @@
   --button-color2: purple;
 }
 
-@media (min-width: 975) {
+:root {
+    --blackish: #010108;
+    --dark_purple: #1B0259;
+    --light_purple: #866BC9;
+    --navy_black: #0E0D30;
+    --dark_blue: #050178;
+    --royal_blue: #0704C2;
+    --pastel_blue: #4D7BF0;
+    --whiteish: #FCFCFC;
+}
+
+@media (min-width: 75em) {
   #controls {
     left: 50%;
+  }
+    #nav-bar > li {
+      padding: 0 20px 0 0 ;
   }
 }
 
 body {
   background-color: #0a0a23;
+}
+
+#nav_bar {
+    position: fixed;
+    top: 0;
+    height: 5vh;
+    width: 100vw;
+    color: var(--whiteish);
+    background-color: var(--dark_purple);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5;
+}
+
+.nav-button {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+    background-color: var(--blackish);
+    color: var(--pastel_blue);
+    border-radius: 0 50%;
+}
+
+ul li {
+    padding: 0 40px 0 0;
+    text-decoration: none; 
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
 }
 
 #text {
