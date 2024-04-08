@@ -32,13 +32,17 @@ body {
     top: 0;
     height: 5vh;
     width: 100vw;
-    color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5;
+    padding-top: 5px;
+}
+
+#nav_bar a {
+    text-decoration: none; 
+    color: var(--whiteish);
 }
 
 .nav-button {
@@ -47,14 +51,14 @@ body {
     flex-direction: row;
     float: left;
     align-items: center;
-    background-color: var(--blackish);
+    background-image: linear-gradient(45deg, var(--blackish), var(--royal_blue));
     color: var(--pastel_blue);
     border-radius: 0 50%;
+    height: 4vh;
 }
 
 ul li {
     padding: 0 40px 0 0;
-    text-decoration: none; 
 }
 
 .nav-items {
