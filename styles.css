@@ -55,6 +55,7 @@ body {
     color: var(--pastel_blue);
     border-radius: 0 50%;
     height: 4vh;
+    border: 1px solid var(--blackish);
 }
 
 ul li {
